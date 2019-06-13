@@ -1,5 +1,4 @@
 #!/bin/sh
-
 size=32
 format=mol
 

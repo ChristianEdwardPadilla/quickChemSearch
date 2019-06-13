@@ -1,7 +1,5 @@
 #!/bin/sh
-
 name=$1
-
 if [ -z $name ]; then
   echo "specify name";
   exit;

@@ -15,8 +15,10 @@ from indigo import IndigoException
 indigo = indigo.Indigo()
 indigo.setOption("ignore-stereochemistry-errors", "true")
 
+#
 class application(object):
     # don't serve static by default
+    # see config files for static defaults
     static_serve = False
     static_alias = { '' : 'ketcher.html' }
 
