@@ -1,5 +1,4 @@
 #!/bin/sh
-
 size=32
 margin=2
 format=png
@@ -42,4 +41,3 @@ indigo-depict - "C1=CC2=C(C=C1)C=CC=C2" $format/pattern/naphthalene.$format -hyd
 
 # layout button
 indigo-depict - "[CH3]C(=O)C1=CC=CC=C1" $format/action/layout.$format -hydro on -w $size -h $size -margins $margin $margin
-
