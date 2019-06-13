@@ -73,7 +73,7 @@ table#ketcher_window {
 
 .buttonDisabled {
   opacity: 0.25;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=25)';
   filter: alpha(opacity=25);
 }
 
@@ -192,14 +192,14 @@ div#window_cover {
   left: 0;
   top: 0;
   opacity: 0.15;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=15)';
   filter: alpha(opacity=15);
 }
 
 div#loading {
   width: 100%;
   height: 100%;
-  background-image: url("loading.gif");
+  background-image: url('loading.gif');
   background-repeat: no-repeat;
   background-position: center center;
 }
